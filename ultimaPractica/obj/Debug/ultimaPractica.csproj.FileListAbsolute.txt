@@ -1,0 +1,6 @@
+C:\Users\CA\Documents\SharpDevelop Projects\ultimaPractica\ultimaPractica\obj\Debug\ultimaPractica.csprojResolveAssemblyReference.cache
+C:\Users\CA\Documents\SharpDevelop Projects\ultimaPractica\ultimaPractica\bin\Debug\ultimaPractica.exe.config
+C:\Users\CA\Documents\SharpDevelop Projects\ultimaPractica\ultimaPractica\bin\Debug\ultimaPractica.exe
+C:\Users\CA\Documents\SharpDevelop Projects\ultimaPractica\ultimaPractica\bin\Debug\ultimaPractica.pdb
+C:\Users\CA\Documents\SharpDevelop Projects\ultimaPractica\ultimaPractica\obj\Debug\ultimaPractica.exe
+C:\Users\CA\Documents\SharpDevelop Projects\ultimaPractica\ultimaPractica\obj\Debug\ultimaPractica.pdb
