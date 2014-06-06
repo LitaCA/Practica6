@@ -28,6 +28,6 @@ namespace ultimaPractica
 			this.myConnection = null;
 		}
 	}
-	//Cervantes Acosta Daniela
+	//Cervantes Acosta Daniela Codigo: 213266778
 }
 
