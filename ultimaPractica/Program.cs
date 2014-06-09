@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using MySql.Data.MySqlClient;
 using System.Data;
 
@@ -13,7 +13,7 @@ namespace ultimaPractica
 			do
 				{
 
-				Console.WriteLine("\t MENU \n");
+				Console.WriteLine("\tMENU\n");
 				Console.WriteLine("1.- Ver\n2.- Agregar");
 				Console.WriteLine("3.- Editar\n4.- Eliminar");
 				Console.WriteLine("5.- Salir\n");
@@ -42,19 +42,17 @@ namespace ultimaPractica
 
 						case 3:
 									Console.Write(" \tEDITAR \n");
-									Console.WriteLine("Ingresa el ID de registro: ");
+									Console.WriteLine("Ingresa el ID a editar: ");
 									string id = Console.ReadLine();
 
 
 									if(profe.Buscarid(id))
 									{
-										Console.WriteLine("ID, Nombre ");
-										Console.WriteLine("¿Seguro que desea editar esos datos? \nS/N ");
+										Console.WriteLine("**Nombre** ");
+										Console.WriteLine("¿Seguro que desea editar este dato? \nS/N ");
 										string resp = Console.ReadLine();
 										if(resp == "s")
 										{
-											Console.WriteLine("Ingresa el nuevo ID: ");
-											codigo = Console.ReadLine();
 											Console.WriteLine("Ingresa el nuevo nombre: ");
 											nombre = Console.ReadLine();
 											profe.editarNombreRegistro(id, nombre);						
@@ -68,7 +66,7 @@ namespace ultimaPractica
 
 						case 4:
 									Console.Write(" \tELIMINAR \n");
-									Console.WriteLine("Ingresa el ID de registro: ");
+									Console.WriteLine("Ingresa el ID a eliminar: ");
 									id = Console.ReadLine();
 									if(profe.Buscarid(id))
 									{
@@ -94,5 +92,5 @@ namespace ultimaPractica
 				while(opcion < 5);
 		}
 	}
-		//Cervantes Acosta Daniela Codigo: 213266778
 }
+//Cervantes Acosta Daniela Liliana. Codigo: 213266778
